@@ -88,6 +88,33 @@ body {
     margin: 0 auto;
 }
 
+hero-flex {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.hero-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--accent);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    animation: fadeInUp 0.8s ease 0.4s backwards;
+    transition: transform 0.3s ease;
+}
+
+.hero-image img:hover {
+    transform: scale(1.05);
+}
+
 .hero h1 {
     font-size: 3.5rem;
     margin-bottom: 1rem;
@@ -146,6 +173,27 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
 }
+
+/* about section 
+
+.about-container {
+    display: flex;
+    gap: 2rem;
+    align-items: start;
+}
+
+.about-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.about-text {
+    flex: 1;
+}
+*/
 
 /* ========================================
    SECTIONS
