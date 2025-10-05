@@ -14,7 +14,7 @@ Personal portfolio website showcasing my skills, experience, and projects as a D
 - Modern UI/UX
 
 ## Live Demo
-[View Portfolio](https://leo-francis-portfolio.vercel.app/) or (https://trailblazer04.github.io/Portfolio-Leo_Francis/)
+[View Portfolio - Vercel](https://leo-francis-portfolio.vercel.app/) or [View Portfolio - Github](https://trailblazer04.github.io/Portfolio-Leo_Francis/)
 
 ## Contact
 - Email: leofrancis6988@gmail.com
